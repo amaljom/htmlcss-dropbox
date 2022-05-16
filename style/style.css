@@ -11,13 +11,15 @@ body{
 }
 /* inizio header */
 .top-bar{
-    width: 100%;
+    width: 1899px;
     height: 74px;
     display: flex;
     background-color: bisque;
     padding: 0px 11px;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1;
 }
 
 .destra{
@@ -67,7 +69,7 @@ h1{
     margin: 0 auto;
     text-align: center;
     text-align: left;
-    padding-top: 40px;
+    padding-top: 130px;
 }
 .img-tex{
     display: flex;
@@ -81,8 +83,53 @@ h1{
 /* seconda sezione */
 .settore-piano{
     margin: 0 auto;
-    width: 55%;
+    width: 50%;
     height: 900px;
     background-color: rgb(241, 225, 204);
     text-align: left;
+    padding-top: 140px;
+}
+h2{
+    font-size: 50px;
+}
+.opzioni{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.fatturazione{
+    display: flex;
+}
+.bordo{
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-style: solid;
+    border-radius: 40px;
+    align-self: center;
+}
+.bordo-colorato{
+    border-color: blue;
+}
+
+.scelta-piani{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.colunna-info{
+    width: 30%;
+    height: 800px;
+    background-color: #d7e5ff;
+    border: solid 1px;
+}
+.titolo-colonna{
+    text-align: center;
+    padding: 7px;
+    border-bottom: solid 1px;
+}
+.elenco-colonna{
+    padding-top: 40px;
+    padding-left: 20px;
 }
