@@ -12,7 +12,6 @@ body{
 /* inizio header */
 .top-bar{
     width: 100%;
-    height: 74px;
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 0px 11px;
@@ -28,7 +27,9 @@ body{
 .sinistra{
     display: flex;
 }
-
+.logo{
+    padding: 14px;
+}
 .header-ul{
     display: flex;
     align-items: center;
@@ -39,7 +40,10 @@ body{
     color: rgb(0, 0, 0);
     list-style: none;
     padding-right: 10px;
-    padding: 0px 16px;
+    padding: 13px 16px;
+}
+.header-ul li:hover{
+    border-bottom: solid 2px;
 }
 
 li a{
@@ -81,9 +85,11 @@ h1{
     padding-bottom: 38px;
 }
 .spazio2{
-    padding-top: 20px;
+    padding: 40px 0px;
 }
-
+.arrow{
+    font-size: 50px;
+}
 .prima-immagine{
     width: 820px;
 }
@@ -398,6 +404,8 @@ i{
     margin: 0 auto;
     padding-top: 150px;
     margin: 0 auto;
+    border-bottom: solid 1px;
+    border-color: lightgray;
 }
 .h2-last{
     padding: 50px 0px;
@@ -410,9 +418,25 @@ i{
     justify-content: space-between;
     padding-right: 10px;
 }
-.last-main-special{
-    border-bottom: solid 1px;
-    border-color: lightgray;
+.freccia1{
+    display: inline-block;
+}
+.freccia2{
+    display: none;
+}
+.last-main-flex:hover .freccia1{
+    display: none;
+}
+.last-main-flex:hover .freccia2{
+    display: inline-block;
+}
+.scomparso{
+    display: none;
+}
+
+.last-main-flex:hover  + .scomparso{
+    display: block;
+    padding: 10px 0px;
 }
 /*footer*/
 footer{
