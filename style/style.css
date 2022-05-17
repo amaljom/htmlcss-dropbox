@@ -6,14 +6,12 @@
 
 body{
     background-color: rgb(255, 255, 255);
-    width: 1920px;
-    margin: 0 auto;
     font-family: 'Fredoka One', cursive;
     font-family: 'Open Sans', sans-serif;
 }
 /* inizio header */
 .top-bar{
-    width: 1899px;
+    width: 100%;
     height: 74px;
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -66,12 +64,13 @@ h1{
     
 }
 .width-settore{
-    width: 60%;
-    height: 650px;
+    /* width: 60%; */
+    height: 705px;
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
     text-align: left;
     padding-top: 130px;
+    width: 1205px;
 }
 .img-tex{
     display: flex;
@@ -91,9 +90,9 @@ h1{
 /* seconda sezione */
 .settore-piano{
     margin: 0 auto;
-    width: 50%;
+    width: 960px;
     text-align: left;
-    padding-top: 140px;
+    padding-top: 200px;
 }
 h2{
     font-size: 32px;
@@ -184,7 +183,7 @@ i{
     padding-right: 8px;
 }
 .piano-sotto-vendite{
-    width: 50%;
+    width: 960px;
     margin: 0 auto;
     margin-top: 52px;
     border: solid 1px;
@@ -218,7 +217,7 @@ i{
     padding-top: 66px;
 }
 .partner{
-    width: 50%;
+    width: 960px;
     margin: 0 auto;
 }
 .img2{
@@ -242,7 +241,7 @@ i{
 }
 
 .img-6{
-    width: 50%;
+    width: 960px;
     margin: 0 auto;
     padding-top: 40px;
 }
@@ -272,31 +271,31 @@ i{
 
 /* inseriamo i vari brand */
 .brands{
-    background-color: beige;
-    width: 1920px;
-    height: 650px;
+    width: 1903px;
+    margin: 0 auto;
+    height: 635px;
     display: flex;
     margin-top: 120px;
     position: relative;
 }
 
 .brands-left{
-    width: 33%;
-    height: 650px;
+    width: calc(100% / 3);
+    /* height: 650px; */
     display: flex;
     flex-wrap: wrap;
 }
 .brands-center{
-    width: 34%;
-    height: 650px;
+    width: calc(100% / 3);
+    /* height: 650px; */
     background-color: #ecdede;
     position: relative;
  
 }
 
 .brands-right{
-    width: 33%;
-    height: 650px;
+    width: calc(100% / 3);
+    /* height: 650px; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -372,8 +371,9 @@ i{
 }
 /*fine brand*/
 .brand-bottom{
-    width: 100%;
+    width: 1903px;
     background-color: rgb(161, 211, 255);
+    margin: 0 auto;
 }
 .sotto-brand{
     width: 46%;
@@ -394,7 +394,7 @@ i{
 
 /*domande frequenti*/
 .ultimo-main{
-    width: 50%;
+    width: 960px;
     margin: 0 auto;
     padding-top: 150px;
     margin: 0 auto;
@@ -416,7 +416,8 @@ i{
 }
 /*footer*/
 footer{
-    width: 100%;
+    width: 1903px;
+    margin: 0 auto;
     height: 600px;
     background-color: rgb(31, 31, 31);
 }
