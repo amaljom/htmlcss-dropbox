@@ -8,13 +8,15 @@ body{
     background-color: #fff;
     width: 1920px;
     margin: 0 auto;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 /* inizio header */
 .top-bar{
     width: 1899px;
     height: 74px;
     display: flex;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     padding: 0px 11px;
     align-items: center;
     justify-content: space-between;
@@ -56,7 +58,7 @@ li a{
 /* inizio main */
 /* prima seione */
 h1{
-    font-size: 100px;
+    font-size: 82px;
 }
 .primo-settore{
     width: 100%;
@@ -76,25 +78,29 @@ h1{
     margin: 55px 0px;
     text-align: left;
 }
+.spazio1{
+    padding-bottom: 38px;
+}
+.spazio2{
+    padding-top: 20px;
+}
 
 .prima-immagine{
-    width: 844px;
+    width: 820px;
 }
 /* seconda sezione */
 .settore-piano{
     margin: 0 auto;
     width: 50%;
-    height: 900px;
-    background-color: rgb(241, 225, 204);
     text-align: left;
     padding-top: 140px;
 }
 h2{
-    font-size: 50px;
+    font-size: 32px;
 }
 .opzioni{
     display: flex;
-    width: 35%;
+    width: 40%;
     justify-content: space-between;
     padding-top: 50px;
 }
@@ -120,16 +126,147 @@ h2{
 }
 .colunna-info{
     width: 30%;
-    height: 800px;
-    background-color: #d7e5ff;
+    height: 1000px;
     border: solid 1px;
+    border-color: lightgrey;
 }
 .titolo-colonna{
     text-align: center;
     padding: 7px;
     border-bottom: solid 1px;
+    border-color: lightgrey;
 }
 .elenco-colonna{
     padding-top: 40px;
     padding-left: 20px;
+    padding-right: 20px;
+}
+.mese{
+    padding: 10px 30px;
+    background-color: rgb(55, 55, 255);
+    text-decoration: none;
+    color: #fff;
+}
+.mese1{
+    padding: 10px 85px;
+
+}
+.elenco-colonna p{
+    padding-top: 15px;
+    
+}
+.special-font{
+    color: rgb(150, 150, 150);
+    padding: -10px 0px;
+}
+.sezione-interna-colonna{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.acquista-ora{
+    padding: 33px 0px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.riga{
+    width: 70px;
+    height: 1px;
+    background-color: lightgray;
+}
+.h4-special{
+    padding-top: 40px;
+}
+
+i{
+    padding-right: 8px;
+}
+.piano-sotto-vendite{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 52px;
+    border: solid 1px;
+    border-color: lightgray;
+}
+
+.titolo{
+    text-align: center;
+    padding: 7px;
+    border-bottom: solid 1px;
+    border-color: lightgray;
+}
+
+.flex-vendite{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 28px;
+}
+.lato-destro{
+    width: 71%;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.spessore1{
+    padding-top: 28px;
+}
+.spessore2{
+    padding-top: 66px;
+}
+.partner{
+    width: 50%;
+    margin: 0 auto;
+}
+.img2{
+    width: 675px;
+}
+.elemento-sinistra{
+    padding-top: 37px;
+    padding-left: 40px;
+}
+.spessore3{
+    padding: 30px 0px;
+}
+
+.bottone2{
+    text-decoration: none;
+    padding: 10px;
+    border: solid 1px;
+    color: black;
+    border-color: black;
+
+}
+
+.img-6{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.sei-contenuti{
+    display: flex;
+    flex-wrap: wrap;
+}
+.size-h2{
+    font-size: 44px;
+}
+.size2-h2{
+    padding-top: 180px;
+    font-size: 42px;
+    width: 69%;
+    padding-bottom: 60px;
+}
+
+.img3{
+    width: 280px;
+}
+.misure-6-img{
+    width: 31%;
+    margin: 11px;
+}
+.misure-6-img h3{
+    padding-bottom: 15px;
 }
