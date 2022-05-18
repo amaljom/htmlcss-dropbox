@@ -14,24 +14,58 @@
 <body>
     <header>
         <div class="top-bar">
-            
-            
             <div class="destra">
                 <div>
                     <img class="logo" src="./img/logo-small.png" alt="">
                 </div>
                 <ul class="header-ul">
-                    <li><a href="#">Perchè Dropbox</a></li>
-                    <li><a href="#">Funzioni</a></li>
-                    <li><a href="#">Piani e prezzi</a></li>
+                    <div class="dropdown">
+                        <li><a href="#">Perchè Dropbox</a></li>
+                        <div class="nascosto-dropdown">
+                            <p>lorem ipsum</p>
+                            <p>lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li><a href="#">Funzioni</a></li>
+                        <div class="nascosto-dropdown">
+                            <p>lorem ipsum</p>
+                            <p>lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li><a href="#">Piani e prezzi</a></li>
+                        <div class="nascosto-dropdown">
+                            <p>lorem ipsum</p>
+                            <p>lorem ipsum</p>
+                        </div>
+                    </div>  
                 </ul>
             </div>
             <!-- sinistra della top bar -->
             <div class="sinistra">
                 <ul class="header-ul">
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Contatta l'ufficio vendite</a></li>
-                    <li><a href="#">Accedi</a></li>
+                    <div class="dropdown">
+                        <li><a href="#">Supporto</a></li>
+                        <div class="nascosto-dropdown">
+                            <p>lorem ipsum</p>
+                            <p>lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li><a href="#">Contatta l'ufficio vendite</a></li>
+                        <div class="nascosto-dropdown">
+                            <p>lorem ipsum</p>
+                            <p>lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li><a href="#">Accedi</a></li>
+                        <div class="nascosto-dropdown">
+                            <p>lorem ipsum</p>
+                            <p>lorem ipsum</p>
+                        </div>
+                    </div>
                     <li class="particolare"><a href="#">Inizia</a></li>
                 </ul>
             </div>
@@ -41,7 +75,7 @@
     
     <main>
         <!-- per il colore di sfondo -->
-        <div class="primo-settore">
+        <section class="primo-settore">
             <div class="width-settore">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <!-- inseriamo le scritte e quella immagine affiancata -->
@@ -64,13 +98,13 @@
                     </div>
                 </div>    
             </div>    
-        </div>
+        </section>
 
-        <div class="settore-piano">
+        <div id="loportoqua" class="settore-piano">
             <h2>Trova  il piaco buisness che fa per te</h2>
 
             <!-- inserisco i due finti bottoni -->
-            <div class="opzioni">
+            <div  class="opzioni">
                 <div class="fatturazione">
                     <div class="bordo bordo-colorato"></div>
                     <p>Fatturazione mensile</p>
@@ -82,7 +116,7 @@
             </div>
             <!-- creo le colonne coi vari piani mensili -->
             <!-- PRIMA COLONNA -->
-            <div id="loportoqua" class="scelta-piani">
+            <section  class="scelta-piani">
                 <div class="colunna-info">
                     <div class="titolo-colonna">
                         <p><i class="fa-solid fa-user"></i>singolo</p>
@@ -238,7 +272,7 @@
                         </div>   
                     </div>
                 </div>
-            </div> 
+            </section> 
         </div>
         <!-- sezione subito sotto -->
         <div class="piano-sotto-vendite">
@@ -263,7 +297,7 @@
         </div>
 
         <!-- Immagine e testo -->
-        <div class="partner">
+        <section class="partner">
             <div class="img-tex">
                 <div>
                     <img class="img2" src="./img/partner.png" alt="NON TROVATO">
@@ -278,9 +312,9 @@
                     <a class="bottone2" href="#">Trova un partner</a>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Sezione con le 6 immagini -->
-        <div class="img-6">
+        <section class="img-6">
             <div>
                 <h2 class="size-h2">Esegui piu operazioni con Dropbox Buisness</h2>
             </div>
@@ -338,10 +372,10 @@
 
             <h2 class="size2-h2">Più di 500.000 team utilizzano Dropbox Buisness</h2>
             <a href="#">Scopri di più sui nostri clienti</a>
-        </div>
+        </section>
         <!-- inseriamo i marchi -->
         <div class="brands">
-            <div class="brands-left">
+            <section class="brands-left">
                 <div class="left1">
                     <img class="img4 img-special" src="./img/designit.svg" alt="NON TROVATO">
                 </div>
@@ -354,9 +388,9 @@
                 <div class="left4">
                     <img class="img4"src="./img/topps.svg" alt="NON TROVATO">
                 </div>
-            </div>
+            </section>
 
-            <div class="brands-center">
+            <section class="brands-center">
                 <div class="sezione-interna">
                     <img src="./img/designit.svg" alt="NON TROVATO">
                     <div class="riga2"></div>
@@ -368,9 +402,9 @@
                     </p>
                 </div> 
  
-            </div>
+            </section>
             
-            <div class="brands-right">
+            <section class="brands-right">
                 <div class="left5">
                     <img class="img4" src="./img/world_bicycle_relief.svg" alt="NON TROVATO">
                 </div>
@@ -383,7 +417,7 @@
                 <div class="left8">
                     <img class="img4" src="./img/clear_channel.svg" alt="">
                 </div>
-            </div>
+            </section>
 
         </div>
         <!-- sezione subito sotto i brand -->
@@ -397,41 +431,46 @@
         </div>
         <!-- DOMANDE FREQUENTI -->
 
-        <div class="ultimo-main">
+        <section class="ultimo-main">
             <h2 class="h2-last">Domande frequenti</h2>
             <div class="last-main-flex">
-                
-                <h4>Qual è la differenza tra Dropbox Buisness Standard e Dropbox
-                        Buisness Advanced?
-                </h4>
-                <p class="freccia1"><i class="fa-solid fa-angle-down"></i></p>
-                <p class="freccia2"><i class="fa-solid fa-angle-up"></i></p>
+                <div class="effect">
+                    <h4>Qual è la differenza tra Dropbox Buisness Standard e Dropbox
+                            Buisness Advanced?
+                    </h4>
+                    <p class="freccia1"><i class="fa-solid fa-angle-down"></i></p>
+                    <p class="freccia2"><i class="fa-solid fa-angle-up"></i></p>
+                </div>
+                <p class="scomparso">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat porro voluptatibus, repellendus exercitationem possimus obcaecati tenetur pariatur asperiores ab ipsum maiores consequuntur nobis alias laborum inventore iure mollitia ipsam in.</p>
             </div>
-            <p class="scomparso">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat porro voluptatibus, repellendus exercitationem possimus obcaecati tenetur pariatur asperiores ab ipsum maiores consequuntur nobis alias laborum inventore iure mollitia ipsam in.</p>
-            <div class="last-main-flex">
-                <h4>Qual è la differenza tra Dropbox Buisness Standard e Dropbox
-                    Buisness Advanced?
-                </h4>
-                <p class="freccia1"><i class="fa-solid fa-angle-down"></i></p>
-                <p class="freccia2"><i class="fa-solid fa-angle-up"></i></p>
-            </div>
-            <p class="scomparso">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat porro voluptatibus, repellendus exercitationem possimus obcaecati tenetur pariatur asperiores ab ipsum maiores consequuntur nobis alias laborum inventore iure mollitia ipsam in.</p>
-            <div class="last-main-flex">
-                <h4>Qual è la differenza tra Dropbox Buisness Standard e Dropbox
-                    Buisness Advanced?
-                </h4>
-                <p class="freccia1"><i class="fa-solid fa-angle-down"></i></p>
-                <p class="freccia2"><i class="fa-solid fa-angle-up"></i></p>
-            </div>
-            <p class="scomparso">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat porro voluptatibus, repellendus exercitationem possimus obcaecati tenetur pariatur asperiores ab ipsum maiores consequuntur nobis alias laborum inventore iure mollitia ipsam in.</p>
             
+            <div class="last-main-flex">
+                <div class="effect">
+                    <h4>Qual è la differenza tra Dropbox Buisness Standard e Dropbox
+                            Buisness Advanced?
+                    </h4>
+                    <p class="freccia1"><i class="fa-solid fa-angle-down"></i></p>
+                    <p class="freccia2"><i class="fa-solid fa-angle-up"></i></p>
+                </div>
+                <p class="scomparso">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat porro voluptatibus, repellendus exercitationem possimus obcaecati tenetur pariatur asperiores ab ipsum maiores consequuntur nobis alias laborum inventore iure mollitia ipsam in.</p>
+            </div>
+            <div class="last-main-flex">
+                <div class="effect">
+                    <h4>Qual è la differenza tra Dropbox Buisness Standard e Dropbox
+                            Buisness Advanced?
+                    </h4>
+                    <p class="freccia1"><i class="fa-solid fa-angle-down"></i></p>
+                    <p class="freccia2"><i class="fa-solid fa-angle-up"></i></p>
+                </div>
+                <p class="scomparso">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat porro voluptatibus, repellendus exercitationem possimus obcaecati tenetur pariatur asperiores ab ipsum maiores consequuntur nobis alias laborum inventore iure mollitia ipsam in.</p>
+            </div>
             
-        </div>
+        </section>
     </main>
     
     
     <footer>
-        <div class="foot">
+        <section class="foot">
             <div class="footer">
                 <div>
                     <ul class="footer-ul">
@@ -487,7 +526,7 @@
             </div>
             <div class="riga3"></div>
             <p class="colore"><i class="fa-solid fa-earth-americas"></i>Italiano <i class="fa-solid fa-caret-up"></i></p>
-        </div>
+        </section>
     </footer>
 </body>
 </html>
