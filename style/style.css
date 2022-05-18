@@ -77,6 +77,10 @@ li a{
 h1{
     font-size: 82px;
 }
+.color-icon{
+    color: rgb(96 31 255);
+    font-size: 20px;
+}
 .primo-settore{
     width: 100%;
     background-color: rgb(195 202 235);
