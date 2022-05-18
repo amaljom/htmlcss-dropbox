@@ -397,12 +397,11 @@ i{
 }
 /*fine brand*/
 .brand-bottom{
-    width: 1903px;
     background-color: rgb(161, 211, 255);
     margin: 0 auto;
 }
 .sotto-brand{
-    width: 46%;
+    width: 930px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -464,13 +463,12 @@ i{
 
 /*footer*/
 footer{
-    width: 1903px;
     margin: 0 auto;
     height: 600px;
     background-color: rgb(31, 31, 31);
 }
 .foot{
-    width: 65%;
+    width: 1450px;
     margin: 0 auto;
     margin-top: 170px;
 }
