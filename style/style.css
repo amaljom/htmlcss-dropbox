@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-boxS;
+    box-sizing: border-box;
 }
 
 body{
@@ -87,12 +87,10 @@ h1{
     
 }
 .width-settore{
-    /* width: 60%; */
-    height: 705px;
+    height: 793px;
     margin: 0 auto;
-    /* text-align: center; */
     text-align: left;
-    padding-top: 130px;
+    padding-top: 83px;
     width: 1205px;
 }
 .img-tex{
@@ -166,7 +164,7 @@ h2{
     padding-right: 20px;
 }
 .mese{
-    padding: 10px 30px;
+    padding: 6px 28px;
     background-color: rgb(55, 55, 255);
     text-decoration: none;
     color: #fff;
@@ -296,9 +294,6 @@ i{
 
 /* inseriamo i vari brand */
 .brands{
-    width: 1903px;
-    margin: 0 auto;
-    height: 635px;
     display: flex;
     margin-top: 120px;
     position: relative;
@@ -306,7 +301,7 @@ i{
 
 .brands-left{
     width: calc(100% / 3);
-    /* height: 650px; */
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
@@ -315,6 +310,7 @@ i{
     /* height: 650px; */
     background-color: #ecdede;
     position: relative;
+    height: calc(100vw / 3);
  
 }
 
@@ -323,6 +319,7 @@ i{
     /* height: 650px; */
     display: flex;
     flex-wrap: wrap;
+    height: calc(100vw / 3);
 }
 .riga2{
     width: 70px;
@@ -384,8 +381,7 @@ i{
 }
 
 .img-special{
-    padding: 123px 68px;
-    background-color: rgb(159 159 159);
+  
 }
 .img4{
     width: 140px;
