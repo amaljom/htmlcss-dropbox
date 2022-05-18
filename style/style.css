@@ -335,6 +335,8 @@ i{
     height: 50%;
     position: relative;
     background-color: rgb(73, 117, 73);
+    border: solid 10px;
+    border-color: rgb(137, 151, 110);
 }
 .left2{
     width: 50%;
@@ -380,9 +382,7 @@ i{
     background-color: yellow;
 }
 
-.img-special{
-  
-}
+
 .img4{
     width: 140px;
     position: absolute;
@@ -391,6 +391,8 @@ i{
     transform: translate(-50%, -50%);
     filter: invert(1);
 }
+
+.border-brand
 /*fine brand*/
 .brand-bottom{
     background-color: rgb(161, 211, 255);
