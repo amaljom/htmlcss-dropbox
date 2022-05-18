@@ -336,7 +336,7 @@ i{
     position: relative;
     background-color: rgb(73, 117, 73);
     border: solid 10px;
-    border-color: rgb(137, 151, 110);
+    border-color: rgb(122, 111, 111);
 }
 .left2{
     width: 50%;
@@ -392,7 +392,6 @@ i{
     filter: invert(1);
 }
 
-.border-brand
 /*fine brand*/
 .brand-bottom{
     background-color: rgb(161, 211, 255);
